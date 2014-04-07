@@ -20,8 +20,7 @@
   },
   "main": "./src/tmhDynamicLocale.js",
   "scripts": {
-      "test": "grunt karma:travis",
-      "postinstall": "bower install"
+      "test": "bower install && grunt karma:travis"
   },
   "repository": {
     "type": "git",
